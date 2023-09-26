@@ -1,0 +1,67 @@
+<div class=" bg-agreen text-[#edf2f4]" x-data="{ selected: null }">
+  <div class="relative">
+      <button type="button" class="py-5p block w-full px-5p" 
+              @click="selected = (selected !== 1) ? 1 : null">
+          <div class="flex items-center justify-between">
+              <h4 class="mb-0 font-syne text-2xl sm:text-3xl mr-5p"> "How Will a Custom Website Enhance SEO and <br> Elevate My Property's Search Engine Rankings?" </h4>
+              <span x-text="selected === 1 ? '-' : '+'" class="text-4xl"></span>
+          </div>
+      </button>
+
+      <div class="relative overflow-hidden transition-all duration-700" 
+          x-cloak
+          x-show="selected === 1"
+          x-ref="container1">
+          <div class="pb-6">
+
+
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center mt-8"> <i class="fa-solid fa-bolt text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Lightning-Fast Loading Speed. </h4> 
+                <p>
+                  Our custom websites are meticulously crafted to eliminate unnecessary code that slows down loading times. When users search for luxury hotels or villas, speed matters. With quick-loading pages, your website rises in search engine rankings, capturing potential guests' attention and ensuring they stay engaged.
+                </p>
+              </div>
+            </div>
+
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-wand-magic-sparkles text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Enhancing User Experience. </h4> 
+                <p>
+                  A responsive and user-friendly website influences your search engine ranking. Our design expertise ensures seamless navigation and optimal display across devices, encouraging visitors to explore and spend more time on your website. A positive user experience translates into higher search engine favorability.
+                </p>
+              </div>
+            </div>
+
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-scale-balanced text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Complying with Search Engine Algorithms. </h4> 
+                <p>
+                  Search engines employ complex algorithms to assess and rank websites based on user experience and performance metrics. Drag-and-drop websites often lag behind in meeting these standards, while our custom-coded approach ensures alignment with these critical metrics, propelling your website to the forefront of search results.
+                </p>
+              </div>
+            </div>
+
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-chalkboard-user text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Analyzing and Enhancing Performance. </h4> 
+                <p>
+                  Access to comprehensive data is vital for SEO success. While drag-and-drop websites may limit your ability to analyze and improve website metrics, our custom solutions integrate seamlessly with Google Analytics and other analytical tools. Armed with valuable insights, you can continually enhance your website's performance to stay ahead of the competition.
+                </p>
+              </div>
+            </div>
+              
+          </div>
+      </div>
+  </div>
+</div>
+  
+  

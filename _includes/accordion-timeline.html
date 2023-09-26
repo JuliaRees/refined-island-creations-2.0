@@ -1,0 +1,81 @@
+<div class=" bg-agreen text-[#edf2f4]" x-data="{ selected: null }">
+  <div class="relative">
+      <button type="button" class="py-5p block w-full px-5p" 
+              @click="selected = (selected !== 1) ? 1 : null">
+          <div class="flex items-center justify-between">
+              <h4 class="mb-0 font-syne text-2xl sm:text-3xl mr-5p"> "How Long Does It Take to Get My Custom Website <br> Crafted by Refined Island Creations?" </h4>
+              <span x-text="selected === 1 ? '-' : '+'" class="text-4xl"></span>
+          </div>
+      </button>
+
+      <div class="relative overflow-hidden transition-all duration-700" 
+          x-cloak
+          x-show="selected === 1"
+          x-ref="container1">
+          <div class="pb-6">
+
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center mt-8"> <i class="fa-solid fa-phone text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Schedule a Free Consultation Call. </h4> 
+                <p>
+                  To provide you with an accurate timeline, we highly recommend scheduling a free consultation call with our team. This allows us to understand your specific business, needs, and aspirations, enabling us to craft a website that truly reflects your brand essence.
+                </p>
+                <div class="flex justify-center">
+                  <a href="#" class="cta-timel"> Book A Call Today! </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-5 mb-8">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-timeline text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Factors Influencing the Timeline. </h4> 
+                <p>
+                  The complexity of your desired website, the availability of high-quality, cohesive pictures, and compelling copy for your property are factors that can influence the timeline. Should you require professional photo shoots or copywriting assistance, we are delighted to discuss these options with you.
+                </p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-5 mb-8">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-child-reaching text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Tailored Attention for Every Client. </h4> 
+                <p>
+                  At Refined Island Creations, we take immense pride in delivering custom websites that stand apart from generic templates. To ensure every client receives the utmost care and attention, we cap the number of clients we work with each month. This dedication ensures that your project receives the time and focus it deserves.
+                </p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-5 mb-8">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-calendar-days text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Plan Ahead for Exclusivity. </h4> 
+                <p>
+                  As a testament to our commitment to excellence, we are currently fully booked until September 2023. If you plan to have your website designed and built by our team, we recommend allowing sufficient time to secure your spot in our calendar.
+                </p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-5 mb-8">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-gauge-simple-high text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Presenting "The Fast Lane Option". </h4> 
+                <p>
+                  For discerning clients with pressing timelines, we proudly unveil our exclusive service, "The FastLane Option." This premium offering expedites the entire website development process, ensuring a tailor-made website of uncompromising quality with unmatched speed. While "The FastLane Option" comes with a higher investment, rest assured that our commitment to excellence remains unwavering, delivering a bespoke digital masterpiece that exceeds all expectations in both form and function.
+                </p>
+              </div>
+            </div>
+
+              
+          </div>
+      </div>
+  </div>
+</div>
+  
+  

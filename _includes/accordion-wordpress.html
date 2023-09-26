@@ -1,0 +1,88 @@
+<div class=" bg-agreen text-[#edf2f4]" x-data="{ selected: null }">
+  <div class="relative ">
+      <button type="button" class="py-5p block w-full px-5p" 
+              @click="selected = (selected !== 1) ? 1 : null">
+          <div class="flex items-center justify-between">
+              <h4 class="mb-0 font-syne text-2xl sm:text-3xl mr-5p"> "Why Should I Opt for a Tailor-Made, Custom-Coded Website <br> Over Drag-and-Drop Builders Like WordPress or Squarespace?" </h4>
+              <span x-text="selected === 1 ? '-' : '+'" class="text-4xl"></span>
+          </div>
+      </button>
+
+      <div class="relative overflow-hidden transition-all duration-700" 
+          x-cloak
+          x-show="selected === 1"
+          x-ref="container1">
+          <div class="pb-6">
+              
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center mt-8"> <i class="fa-solid fa-fingerprint text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Unparalleled Customization. </h4> 
+                <p>
+                  With drag-and-drop builders, you'll encounter frustrating limitations in achieving a truly unique and brand-cohesive website. Our custom-coded approach allows us to tailor every element according to your specific needs, resulting in an entirely personalized online experience.
+                </p>
+              </div>
+            </div>
+
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-atom text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Elevating UI and UX. </h4> 
+                <p>
+                  User interface and user experience are crucial in captivating your visitors. Drag-and-drop builders often fall short, restricting your creative options. Our custom-coded websites are designed to perfection, ensuring seamless navigation and an immersive guest journey.
+                </p>
+              </div>
+            </div>
+
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-ban text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> AVOID the Generic Look. </h4> 
+                <p>
+                  Say goodbye to cookie-cutter templates shared by countless others. A drag-and-drop site may appear generic, cheapening the image of your upscale property. Our custom-coded websites exude luxury and exclusivity, leaving a lasting impression on your audience.
+                </p>
+              </div>
+            </div>
+
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-magnifying-glass-chart text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Elevated SEO. </h4> 
+                <p>
+                  Our meticulous coding practices adhere to hierarchical rules favored by search engines like Google. This means your custom-coded website has a competitive edge in SEO, leading to higher search engine rankings and increased visibility.
+                </p>
+              </div>
+            </div>
+
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-mobile-screen-button text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> Perfect on Any Device. </h4> 
+                <p>
+                  Mobile responsiveness is paramount in today's digital landscape. Not all drag-and-drop builders offer seamless mobile experiences, but we ensure that every website we create looks flawless on all devices, capturing your audience's attention wherever they explore.
+                </p>
+              </div>
+            </div>
+
+            <div class="sm:grid sm:grid-cols-5 mb-8 text-center sm:text-left">
+              <div class="col-span-1 flex items-center justify-center"> <i class="fa-solid fa-virus-covid text-4xl sm:text-5xl"></i> </div>
+              <div class="col-span-4 p-5p sm:p-0 sm:pr-5p">
+                 
+                <h4 class="font-syne font-semibold text-xl"> A critical drawback of drag-and-drop websites lies in their vulnerability to hacking and malware infections. </h4> 
+                <p>
+                  Many templates and frameworks are created by developers but left without ongoing maintenance. As a result, these websites become outdated and prone to vulnerabilities over time. Without vigilant developers to address these issues, they become easy targets for hackers, jeopardizing sensitive guest data, credit card information, and more. Moreover, the interconnectedness of websites using the same framework or template means that if one is hacked, others become susceptible to cyber threats as well.
+                </p>
+              </div>
+            </div>
+              
+          </div>
+      </div>
+  </div>
+</div>
+  
+  

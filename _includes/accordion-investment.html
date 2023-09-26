@@ -1,0 +1,44 @@
+<div class=" bg-agreen text-[#edf2f4]" x-data="{ selected: null }">
+  <div class="relative">
+      <button type="button" class="py-5p block w-full px-5p" 
+              @click="selected = (selected !== 1) ? 1 : null">
+          <div class="flex items-center justify-between">
+              <h4 class="mb-0 font-syne text-2xl sm:text-3xl mr-5p"> "Is Investing in a Custom-Coded Website Worth It for My Luxury Property?" </h4>
+              <span x-text="selected === 1 ? '-' : '+'" class="text-4xl"></span>
+          </div>
+      </button>
+
+      <div class="relative overflow-hidden transition-all duration-700" 
+          x-cloak
+          x-show="selected === 1"
+          x-ref="container1">
+          <div class="pb-6">
+              
+            <div class="px-5p mb-8 text-center mt-8">
+                <p class="font-bold text-l"> While custom-coded websites may come with a higher initial cost, the returns on your investment are extraordinary. </p>
+
+                <p> Our custom-coded websites become potent generators of revenue for your luxury property. Our custom websites drive more direct bookings by elevating your online presence and captivating potential guests with seamless user experiences, ultimately maximizing your revenue potential. </p>
+
+                <p class="font-bold text-l"> The profitability of a custom-coded website far surpasses the initial investment. </p>
+
+                <p> Unlike off-the-shelf solutions, our tailored approach ensures your property stands out in the competitive hospitality landscape, securing a unique position that attracts discerning travelers seeking exceptional experiences. Your bespoke website will not only set your luxury property apart but also serve as an enduring asset that continues to drive revenue growth and captivate guests for years to come. </p>
+
+            </div>
+              
+ 
+ 
+
+ 
+
+
+              
+
+
+
+              
+          </div>
+      </div>
+  </div>
+</div>
+  
+  
