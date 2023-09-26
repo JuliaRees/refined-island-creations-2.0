@@ -332,7 +332,7 @@ h4 {
 }
 p {
   margin-bottom: 0.5em;
-  font-family: Inter, sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 1.5;
 }
 a {
@@ -476,6 +476,9 @@ a {
 .inset-0 {
   inset: 0px;
 }
+.right-1 {
+  right: 0.25rem;
+}
 .z-10 {
   z-index: 10;
 }
@@ -490,6 +493,9 @@ a {
 }
 .col-span-4 {
   grid-column: span 4 / span 4;
+}
+.row-span-2 {
+  grid-row: span 2 / span 2;
 }
 .mx-auto {
   margin-left: auto;
@@ -556,8 +562,8 @@ a {
 .h-full {
   height: 100%;
 }
-.min-h-30 {
-  min-height: 30vh;
+.max-h-96 {
+  max-height: 24rem;
 }
 .min-h-40 {
   min-height: 40vh;
@@ -592,6 +598,10 @@ a {
 .max-w-screen-xl {
   max-width: 1280px;
 }
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .list-disc {
   list-style-type: disc;
 }
@@ -618,6 +628,12 @@ a {
 }
 .justify-between {
   justify-content: space-between;
+}
+.justify-items-start {
+  justify-items: start;
+}
+.justify-items-end {
+  justify-items: end;
 }
 .gap-4 {
   gap: 1rem;
@@ -756,11 +772,8 @@ a {
 .text-end {
   text-align: end;
 }
-.font-inter {
-  font-family: Inter, sans-serif;
-}
-.font-syne {
-  font-family: Syne, sans-serif;
+.font-serif {
+  font-family: Lora, serif;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -808,6 +821,9 @@ a {
 .tracking-wide {
   letter-spacing: 0.025em;
 }
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
 .tracking-widest {
   letter-spacing: 0.1em;
 }
@@ -847,6 +863,9 @@ a {
 .duration-700 {
   transition-duration: 700ms;
 }
+.\[writing-mode\:vertical-rl\] {
+  writing-mode: vertical-rl;
+}
 
 
 /* ----------- Default Styles to apply to the whole project  --------- */
@@ -885,6 +904,10 @@ svg {
 
 .text-dark {
     color: #00261D;
+}
+
+.text-lightest {
+    color: #005945;
 }
 
 
@@ -1196,6 +1219,9 @@ input[type="number"] {
 }
 
 @media (min-width: 640px) {
+  .sm\:right-4 {
+    right: 1rem;
+  }
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -1271,14 +1297,14 @@ input[type="number"] {
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  .sm\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
   .sm\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
   .sm\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .sm\:grid-cols-9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
   }
   .sm\:justify-end {
     justify-content: flex-end;
@@ -1292,6 +1318,9 @@ input[type="number"] {
   .sm\:border-x-2 {
     border-left-width: 2px;
     border-right-width: 2px;
+  }
+  .sm\:border-b-2 {
+    border-bottom-width: 2px;
   }
   .sm\:border-l-2 {
     border-left-width: 2px;
@@ -1385,6 +1414,9 @@ input[type="number"] {
   }
   .md\:max-w-4xl {
     max-width: 56rem;
+  }
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
   .md\:gap-4 {
     gap: 1rem;

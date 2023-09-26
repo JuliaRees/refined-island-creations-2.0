@@ -30,7 +30,7 @@
     }
 
     p {
-        @apply font-inter mb-[0.5em] leading-normal;
+        @apply font-sans-serif mb-[0.5em] leading-normal;
     }
 
     a {
@@ -73,6 +73,10 @@ svg {
 
 .text-dark {
     color: #00261D;
+}
+
+.text-lightest {
+    color: #005945;
 }
 
 

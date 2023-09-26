@@ -8,9 +8,8 @@ module.exports = {
     ],
     theme: {
       fontFamily: {
-        'philosopher': ['Philosopher', 'sans-serif'], 
-        'syne': ['Syne', 'sans-serif'],
-        'inter': ['Inter', 'sans-serif'],
+        'serif': ['Lora', 'serif'],
+        'sans-serif': ['Montserrat', 'sans-serif'],
       },
       fontSize: {
         xs: ['0.75rem', '1.2'],
