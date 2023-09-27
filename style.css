@@ -30,7 +30,7 @@
     }
 
     p {
-        @apply font-sans-serif mb-[0.5em] leading-normal;
+        @apply font-sans-serif leading-6;
     }
 
     a {
@@ -207,7 +207,7 @@ svg {
 .header-cta {
     padding: 0.5rem 2rem;
     background-color: #003f31;
-    color: white;
+    color: #ECE8D5;
     text-transform: uppercase;
     appearance: none;
     font-size: 1rem;
@@ -220,7 +220,7 @@ svg {
 .cta {
     padding: 0.5rem 2rem;
     background-color: #003f31;
-    color: white;
+    color: #ECE8D5;
     text-transform: uppercase;
     appearance: none;
     border: none;
@@ -238,7 +238,7 @@ svg {
 
 .cta-timel {
     padding: 0.5rem 2rem;
-    background-color: white;
+    background-color: #ECE8D5;
     color: #003f31;
     text-transform: uppercase;
     appearance: none;
@@ -250,7 +250,7 @@ svg {
 
 .cta-timel:hover {
     background-color: #005945;
-    color: white;
+    color: #ECE8D5;
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -294,13 +294,13 @@ input {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
-    background-color:white;
+    background-color:#ECE8D5;
     color: black;
   }
 
 button {
     background-color: #003f31;
-    color: white;
+    color: #ECE8D5;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -336,19 +336,19 @@ input[type="number"] {
     border: none;
     border-radius: 6px;
     padding: 10px;
-    color: white;
+    color: #ECE8D5;
 }
 
 .calculator label {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: #fff;
+    color: #ECE8D5;
 }
 
 #calculateBtn {
     background-color: #b2141f;
-    color: white;
+    color: #ECE8D5;
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
