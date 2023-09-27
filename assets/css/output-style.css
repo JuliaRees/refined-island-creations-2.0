@@ -514,6 +514,9 @@ a {
 .mb-10p {
   margin-bottom: 10%;
 }
+.mb-3p {
+  margin-bottom: 3%;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -534,6 +537,9 @@ a {
 }
 .mt-16 {
   margin-top: 4rem;
+}
+.mt-4 {
+  margin-top: 1rem;
 }
 .mt-5p {
   margin-top: 5%;
@@ -579,9 +585,6 @@ a {
 }
 .min-h-70 {
   min-height: 70vh;
-}
-.min-h-80 {
-  min-height: 80vh;
 }
 .min-h-90 {
   min-height: 90vh;
@@ -652,8 +655,15 @@ a {
 .border-b-2 {
   border-bottom-width: 2px;
 }
+.border-r-2 {
+  border-right-width: 2px;
+}
 .border-t {
   border-top-width: 1px;
+}
+.border-\[\#005945\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 89 69 / var(--tw-border-opacity));
 }
 .bg-\[\#003f31\] {
   --tw-bg-opacity: 1;
@@ -662,13 +672,13 @@ a {
 .bg-\[\#327466ab\] {
   background-color: #327466ab;
 }
+.bg-\[\#ECE8D5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 232 213 / var(--tw-bg-opacity));
+}
 .bg-agreen {
   --tw-bg-opacity: 1;
   background-color: rgb(0 63 49 / var(--tw-bg-opacity));
-}
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-cover {
   background-size: cover;
@@ -730,8 +740,8 @@ a {
 .pb-1p {
   padding-bottom: 1%;
 }
-.pb-4 {
-  padding-bottom: 1rem;
+.pb-3p {
+  padding-bottom: 3%;
 }
 .pb-5p {
   padding-bottom: 5%;
@@ -766,6 +776,9 @@ a {
 .pt-\[2\%\] {
   padding-top: 2%;
 }
+.pt-3p {
+  padding-top: 3%;
+}
 .text-left {
   text-align: left;
 }
@@ -797,6 +810,9 @@ a {
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
+}
+.text-\[2\.8rem\] {
+  font-size: 2.8rem;
 }
 .text-\[9rem\] {
   font-size: 9rem;
@@ -833,6 +849,10 @@ a {
 }
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+.text-\[\#ECE8D5\] {
+  --tw-text-opacity: 1;
+  color: rgb(236 232 213 / var(--tw-text-opacity));
 }
 .text-\[\#b2141f\] {
   --tw-text-opacity: 1;
@@ -911,6 +931,49 @@ svg {
     color: #005945;
 }
 
+.line-top {
+    border-width: 2px;
+    border-bottom-width: 0px;
+    margin-top: 1rem; /* 16px */
+    margin-bottom: 1rem; /* 16px */
+    margin-left: -5vw;
+    width: 60%;
+    border-color: #005945;
+    margin-top: 5%;
+}
+
+.line-bottom {
+    border-width: 2px;
+    border-bottom-width: 0px;
+    margin-top: 1rem; /* 16px */
+    margin-bottom: 1rem; /* 16px */
+    margin-left: -5vw;
+    width: 40%;
+    border-color: #005945;
+    margin-bottom: 5%;
+}
+
+.line-top-right {
+    border-width: 2px;
+    border-bottom-width: 0px;
+    margin-bottom: 1rem; /* 16px */
+    margin-left: auto; /* Align to the right side of the screen */
+    margin-right: 0; /* Reset margin-right */
+    width: 60%;
+    border-color: #005945;
+    margin-top: 5%;
+}
+
+.line-bottom-right {
+    border-width: 2px;
+    border-bottom-width: 0px;
+    margin-top: 1rem; /* 16px */
+    margin-left: auto; /* Align to the right side of the screen */
+    margin-right: 0; /* Reset margin-right */
+    width: 40%;
+    border-color: #005945;
+    margin-bottom: 5%;
+}
 
 
 /* Header */
@@ -1271,17 +1334,14 @@ input[type="number"] {
   .sm\:min-h-50 {
     min-height: 50vh;
   }
-  .sm\:min-h-60 {
-    min-height: 60vh;
-  }
   .sm\:min-h-70 {
     min-height: 70vh;
   }
   .sm\:w-1\/2 {
     width: 50%;
   }
-  .sm\:w-52 {
-    width: 13rem;
+  .sm\:w-48 {
+    width: 12rem;
   }
   .sm\:max-w-2xl {
     max-width: 42rem;
@@ -1310,10 +1370,6 @@ input[type="number"] {
   .sm\:gap-5 {
     gap: 1.25rem;
   }
-  .sm\:border-x-2 {
-    border-left-width: 2px;
-    border-right-width: 2px;
-  }
   .sm\:border-r-2 {
     border-right-width: 2px;
   }
@@ -1337,12 +1393,6 @@ input[type="number"] {
   }
   .sm\:pb-5p {
     padding-bottom: 5%;
-  }
-  .sm\:pb-6 {
-    padding-bottom: 1.5rem;
-  }
-  .sm\:pl-5p {
-    padding-left: 5%;
   }
   .sm\:pr-0 {
     padding-right: 0px;
@@ -1385,9 +1435,6 @@ input[type="number"] {
     font-size: 3.75rem;
     line-height: 1;
   }
-  .sm\:text-\[4rem\] {
-    font-size: 4rem;
-  }
 }
 
 @media (min-width: 768px) {
@@ -1400,9 +1447,6 @@ input[type="number"] {
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-  .md\:gap-4 {
-    gap: 1rem;
-  }
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1413,10 +1457,6 @@ input[type="number"] {
   }
   .md\:text-3xl {
     font-size: 1.875rem;
-    line-height: 1;
-  }
-  .md\:text-8xl {
-    font-size: 6rem;
     line-height: 1;
   }
 }
@@ -1434,9 +1474,6 @@ input[type="number"] {
   }
   .lg\:hidden {
     display: none;
-  }
-  .lg\:w-60 {
-    width: 15rem;
   }
   .lg\:max-w-5xl {
     max-width: 64rem;

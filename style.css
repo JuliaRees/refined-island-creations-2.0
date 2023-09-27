@@ -79,6 +79,49 @@ svg {
     color: #005945;
 }
 
+.line-top {
+    border-width: 2px;
+    border-bottom-width: 0px;
+    margin-top: 1rem; /* 16px */
+    margin-bottom: 1rem; /* 16px */
+    margin-left: -5vw;
+    width: 60%;
+    border-color: #005945;
+    margin-top: 5%;
+}
+
+.line-bottom {
+    border-width: 2px;
+    border-bottom-width: 0px;
+    margin-top: 1rem; /* 16px */
+    margin-bottom: 1rem; /* 16px */
+    margin-left: -5vw;
+    width: 40%;
+    border-color: #005945;
+    margin-bottom: 5%;
+}
+
+.line-top-right {
+    border-width: 2px;
+    border-bottom-width: 0px;
+    margin-bottom: 1rem; /* 16px */
+    margin-left: auto; /* Align to the right side of the screen */
+    margin-right: 0; /* Reset margin-right */
+    width: 60%;
+    border-color: #005945;
+    margin-top: 5%;
+}
+
+.line-bottom-right {
+    border-width: 2px;
+    border-bottom-width: 0px;
+    margin-top: 1rem; /* 16px */
+    margin-left: auto; /* Align to the right side of the screen */
+    margin-right: 0; /* Reset margin-right */
+    width: 40%;
+    border-color: #005945;
+    margin-bottom: 5%;
+}
 
 
 /* Header */
