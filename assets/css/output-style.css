@@ -513,6 +513,9 @@ a {
 .mb-10p {
   margin-bottom: 10%;
 }
+.mb-20p {
+  margin-bottom: 20%;
+}
 .mb-3p {
   margin-bottom: 3%;
 }
@@ -705,10 +708,6 @@ a {
   padding-left: 0px;
   padding-right: 0px;
 }
-.px-10p {
-  padding-left: 10%;
-  padding-right: 10%;
-}
 .px-5p {
   padding-left: 5%;
   padding-right: 5%;
@@ -746,6 +745,9 @@ a {
 }
 .pb-1p {
   padding-bottom: 1%;
+}
+.pb-20p {
+  padding-bottom: 20%;
 }
 .pb-3p {
   padding-bottom: 3%;
@@ -818,8 +820,14 @@ a {
   font-size: 8rem;
   line-height: 1;
 }
+.text-\[1\.3rem\] {
+  font-size: 1.3rem;
+}
 .text-\[1\.4rem\] {
   font-size: 1.4rem;
+}
+.text-\[2\.9rem\] {
+  font-size: 2.9rem;
 }
 .text-\[3\.4rem\] {
   font-size: 3.4rem;
@@ -838,6 +846,9 @@ a {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.2;
+}
+.text-\[2\.8rem\] {
+  font-size: 2.8rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1317,6 +1328,9 @@ input[type="number"] {
   .sm\:mr-10p {
     margin-right: 10%;
   }
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
   .sm\:mt-16 {
     margin-top: 4rem;
   }
@@ -1346,6 +1360,9 @@ input[type="number"] {
   }
   .sm\:min-h-50 {
     min-height: 50vh;
+  }
+  .sm\:min-h-60 {
+    min-height: 60vh;
   }
   .sm\:min-h-70 {
     min-height: 70vh;
@@ -1416,6 +1433,12 @@ input[type="number"] {
   .sm\:pb-5p {
     padding-bottom: 5%;
   }
+  .sm\:pl-0 {
+    padding-left: 0px;
+  }
+  .sm\:pl-5p {
+    padding-left: 5%;
+  }
   .sm\:pr-0 {
     padding-right: 0px;
   }
@@ -1457,8 +1480,14 @@ input[type="number"] {
     font-size: 3.75rem;
     line-height: 1;
   }
-  .sm\:text-\[2\.8rem\] {
-    font-size: 2.8rem;
+  .sm\:text-\[1\.475rem\] {
+    font-size: 1.475rem;
+  }
+  .sm\:text-\[2\.3rem\] {
+    font-size: 2.3rem;
+  }
+  .sm\:text-\[5\.1rem\] {
+    font-size: 5.1rem;
   }
   .sm\:text-\[5\.2rem\] {
     font-size: 5.2rem;
@@ -1472,50 +1501,61 @@ input[type="number"] {
   .md\:block {
     display: block;
   }
-  .md\:grid {
-    display: grid;
-  }
-  .md\:min-h-50 {
-    min-height: 50vh;
-  }
   .md\:max-w-4xl {
     max-width: 56rem;
   }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-  .md\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-  .md\:px-10p {
-    padding-left: 10%;
-    padding-right: 10%;
   }
   .md\:px-5p {
     padding-left: 5%;
     padding-right: 5%;
   }
-  .md\:py-3p {
-    padding-top: 3%;
-    padding-bottom: 3%;
+  .md\:py-5p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .md\:pb-15p {
+    padding-bottom: 15%;
+  }
+  .md\:pb-20p {
+    padding-bottom: 20%;
+  }
+  .md\:pb-5p {
+    padding-bottom: 5%;
+  }
+  .md\:pt-10p {
+    padding-top: 10%;
+  }
+  .md\:pt-15p {
+    padding-top: 15%;
   }
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 1;
   }
-  .md\:text-\[9rem\] {
-    font-size: 9rem;
+  .md\:text-\[1\.575rem\] {
+    font-size: 1.575rem;
+  }
+  .md\:text-\[6\.2rem\] {
+    font-size: 6.2rem;
+  }
+  .md\:text-\[6\.3rem\] {
+    font-size: 6.3rem;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+  .lg\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
   .lg\:mx-10p {
     margin-left: 10%;
     margin-right: 10%;
@@ -1538,15 +1578,42 @@ input[type="number"] {
   .lg\:gap-5 {
     gap: 1.25rem;
   }
+  .lg\:px-15p {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .lg\:px-5p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .lg\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+  .lg\:pb-10p {
+    padding-bottom: 10%;
+  }
+  .lg\:pb-3p {
+    padding-bottom: 3%;
+  }
+  .lg\:pl-5p {
+    padding-left: 5%;
+  }
+  .lg\:pr-0 {
+    padding-right: 0px;
   }
   .lg\:pt-0 {
     padding-top: 0px;
   }
   .lg\:text-left {
     text-align: left;
+  }
+  .lg\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+  .lg\:text-\[8\.3rem\] {
+    font-size: 8.3rem;
   }
 }
 
@@ -1560,10 +1627,55 @@ input[type="number"] {
   .xl\:hidden {
     display: none;
   }
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
   .xl\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
   .xl\:items-center {
     align-items: center;
+  }
+  .xl\:justify-items-center {
+    justify-items: center;
+  }
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .xl\:py-5p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .xl\:pb-15p {
+    padding-bottom: 15%;
+  }
+  .xl\:pb-5p {
+    padding-bottom: 5%;
+  }
+  .xl\:text-\[9rem\] {
+    font-size: 9rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:min-h-40 {
+    min-height: 40vh;
+  }
+  .\32xl\:p-0 {
+    padding: 0px;
+  }
+  .\32xl\:px-1p {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .\32xl\:pb-10p {
+    padding-bottom: 10%;
+  }
+  .\32xl\:pt-5p {
+    padding-top: 5%;
+  }
+  .\32xl\:text-\[10\.3rem\] {
+    font-size: 10.3rem;
   }
 }
