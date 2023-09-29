@@ -552,6 +552,9 @@ a {
 .mt-\[0\.5rem\] {
   margin-top: 0.5rem;
 }
+.mt-\[50\%\] {
+  margin-top: 50%;
+}
 .mt-\[60\%\] {
   margin-top: 60%;
 }
@@ -1463,6 +1466,9 @@ input[type="number"] {
   }
   .sm\:pb-10p {
     padding-bottom: 10%;
+  }
+  .sm\:pb-20p {
+    padding-bottom: 20%;
   }
   .sm\:pb-5p {
     padding-bottom: 5%;
