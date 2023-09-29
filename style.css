@@ -54,8 +54,8 @@ html {
 /* For regular laptops and smaller screens */
 body {
     max-width: 100%; /* Allow it to expand to the full width of the screen */
-    background-color: #002921;
-    color: #ECE8D5;
+    background-color: #001410; 
+    color:  #EEE0CB; 
 }
 
 /* For larger screens like flatscreen TVs */
@@ -72,12 +72,14 @@ svg {
 }
 
 .text-dark {
-    color: #002921;
+    color: #001410;
 }
 
-.text-lightest {
-    color: #00A383;
+.text-lightgreen {
+    color: #839788; 
 }
+
+
 
 .line-top {
     border-width: 2px;
@@ -86,7 +88,7 @@ svg {
     margin-bottom: 1rem; /* 16px */
     margin-left: -5vw;
     width: 60%;
-    border-color: #00A383;
+    border-color: #839788;
     margin-top: 5%;
 }
 
@@ -97,7 +99,7 @@ svg {
     margin-bottom: 1rem; /* 16px */
     margin-left: -5vw;
     width: 40%;
-    border-color: #00A383;
+    border-color: #839788;
     margin-bottom: 5%;
 }
 
@@ -108,7 +110,7 @@ svg {
     margin-left: auto; /* Align to the right side of the screen */
     margin-right: 0; /* Reset margin-right */
     width: 60%;
-    border-color: #00A383;
+    border-color: #839788;
     margin-top: 5%;
 }
 
@@ -119,7 +121,7 @@ svg {
     margin-left: auto; /* Align to the right side of the screen */
     margin-right: 0; /* Reset margin-right */
     width: 40%;
-    border-color: #00A383;
+    border-color: #839788;
     margin-bottom: 5%;
 }
 
@@ -146,7 +148,7 @@ svg {
 }
 
 .hamburger-menu span {
-    background-color: #000;
+    background-color: #EEE0CB;
     height: 4px;
     width: 100%;
     transition: transform 0.3s ease-in-out;
@@ -166,7 +168,8 @@ svg {
 
 .mobile-menu {
     display: none;
-    background-color: #b5b5b5;
+    background-color: #839788;
+    color: #001410;
     padding: 6rem;
     position: fixed;
     top: 0;
@@ -191,11 +194,26 @@ svg {
 }
 
 
+@media (min-width:390px) {
+    .hamburger-wrapper {
+        top: 10vw;
+    }
+}
+
+@media (min-width:458px) {
+    .hamburger-wrapper {
+        top: 10vw;
+    }
+}
+
 @media (min-width:768px) {
     .hamburger-wrapper {
         top: 6.5vw;
     }
 }
+
+
+
 
 
 
@@ -206,8 +224,8 @@ svg {
 
 .button {
     padding: 0.5rem 2rem;
-    background-color: #003f31;
-    color: white;
+    background-color: #5e7062;
+    color: #EEE0CB;
     text-transform: uppercase;
     appearance: none;
     font-size: 1rem;
@@ -219,8 +237,8 @@ svg {
 
 .header-cta {
     padding: 0.5rem 2rem;
-    background-color: #003f31;
-    color: #ECE8D5;
+    background-color: #5e7062;
+    color: #EEE0CB;
     text-transform: uppercase;
     appearance: none;
     font-size: 1rem;
@@ -232,8 +250,8 @@ svg {
 
 .cta {
     padding: 0.5rem 2rem;
-    background-color: #003f31;
-    color: #ECE8D5;
+    background-color: #5e7062;
+    color: #EEE0CB;
     text-transform: uppercase;
     appearance: none;
     border: none;
@@ -244,7 +262,7 @@ svg {
 
 .cta:hover,
 .header-cta:hover {
-    background-color: #000c09;
+    background-color: #47544a;
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
