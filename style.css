@@ -130,9 +130,12 @@ svg {
     cursor: pointer;
     display: inline-block;
     right: 5%;
-    top: 5.5%;
+    top: calc(11vw + 0rem);
     z-index: 1000;
+    position: fixed;
 }
+
+
 
 .hamburger-menu {
     display: flex;
@@ -171,6 +174,7 @@ svg {
     text-align: center;
     text-transform: lowercase;
     overflow-y: auto;
+    z-index: 50;
 }
 
 .mobile-menu.active {
@@ -185,6 +189,15 @@ svg {
     font-weight: normal;
     font-size: 1.5rem;
 }
+
+
+@media (min-width:768px) {
+    .hamburger-wrapper {
+        top: 6.5vw;
+    }
+}
+
+
 
 .subtle {
     opacity: .5;
