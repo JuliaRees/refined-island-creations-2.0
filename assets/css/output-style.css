@@ -677,6 +677,10 @@ a {
 .bg-\[\#327466ab\] {
   background-color: #327466ab;
 }
+.bg-\[\#4A594E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 89 78 / var(--tw-bg-opacity));
+}
 .bg-\[\#ECE8D5\] {
   --tw-bg-opacity: 1;
   background-color: rgb(236 232 213 / var(--tw-bg-opacity));
@@ -863,6 +867,10 @@ a {
 .text-\[\#ECE8D5\] {
   --tw-text-opacity: 1;
   color: rgb(236 232 213 / var(--tw-text-opacity));
+}
+.text-\[\#EEE0CB\] {
+  --tw-text-opacity: 1;
+  color: rgb(238 224 203 / var(--tw-text-opacity));
 }
 .text-\[\#b2141f\] {
   --tw-text-opacity: 1;
@@ -1086,7 +1094,7 @@ svg {
 
 .button {
     padding: 0.5rem 2rem;
-    background-color: #5e7062;
+    background-color: #839788;
     color: #EEE0CB;
     text-transform: uppercase;
     -webkit-appearance: none;
@@ -1101,7 +1109,7 @@ svg {
 
 .header-cta {
     padding: 0.5rem 2rem;
-    background-color: #5e7062;
+    background-color: #839788;
     color: #EEE0CB;
     text-transform: uppercase;
     -webkit-appearance: none;
@@ -1116,7 +1124,7 @@ svg {
 
 .cta {
     padding: 0.5rem 2rem;
-    background-color: #5e7062;
+    background-color: #839788;
     color: #EEE0CB;
     text-transform: uppercase;
     -webkit-appearance: none;
