@@ -552,8 +552,8 @@ a {
 .mt-\[0\.5rem\] {
   margin-top: 0.5rem;
 }
-.mt-\[50\%\] {
-  margin-top: 50%;
+.mt-\[30\%\] {
+  margin-top: 30%;
 }
 .mt-\[60\%\] {
   margin-top: 60%;
@@ -684,9 +684,9 @@ a {
   --tw-bg-opacity: 1;
   background-color: rgb(74 89 78 / var(--tw-bg-opacity));
 }
-.bg-\[\#ECE8D5\] {
+.bg-\[\#EEE0CB\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(236 232 213 / var(--tw-bg-opacity));
+  background-color: rgb(238 224 203 / var(--tw-bg-opacity));
 }
 .bg-agreen {
   --tw-bg-opacity: 1;
@@ -707,6 +707,9 @@ a {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.p-3p {
+  padding: 3%;
 }
 .p-5p {
   padding: 5%;
@@ -764,6 +767,9 @@ a {
 .pb-6 {
   padding-bottom: 1.5rem;
 }
+.pb-\[22\%\] {
+  padding-bottom: 22%;
+}
 .pl-\[2\%\] {
   padding-left: 2%;
 }
@@ -799,6 +805,9 @@ a {
 }
 .text-right {
   text-align: right;
+}
+.font-sans-serif {
+  font-family: Montserrat, sans-serif;
 }
 .font-serif {
   font-family: Lora, serif;
@@ -861,15 +870,14 @@ a {
 .uppercase {
   text-transform: uppercase;
 }
+.leading-6 {
+  line-height: 1.5rem;
+}
 .tracking-wide {
   letter-spacing: 0.025em;
 }
 .tracking-widest {
   letter-spacing: 0.1em;
-}
-.text-\[\#ECE8D5\] {
-  --tw-text-opacity: 1;
-  color: rgb(236 232 213 / var(--tw-text-opacity));
 }
 .text-\[\#EEE0CB\] {
   --tw-text-opacity: 1;
@@ -1579,9 +1587,6 @@ input[type="number"] {
   }
   .md\:pb-15p {
     padding-bottom: 15%;
-  }
-  .md\:pb-20p {
-    padding-bottom: 20%;
   }
   .md\:pb-5p {
     padding-bottom: 5%;
