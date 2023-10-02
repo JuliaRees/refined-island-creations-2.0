@@ -193,6 +193,7 @@ svg {
     font-size: 1.5rem;
 }
 
+/* Hamburger button */
 
 @media (min-width:390px) {
     .hamburger-wrapper {
@@ -213,13 +214,10 @@ svg {
 }
 
 
-
-
-
-
 .subtle {
     opacity: .5;
     font-size: 0.8rem;
+    line-height: 1.2rem;
 }
 
 .button {

@@ -513,9 +513,6 @@ a {
 .mb-10p {
   margin-bottom: 10%;
 }
-.mb-20p {
-  margin-bottom: 20%;
-}
 .mb-3p {
   margin-bottom: 3%;
 }
@@ -533,6 +530,9 @@ a {
 }
 .mr-5p {
   margin-right: 5%;
+}
+.mt-0 {
+  margin-top: 0px;
 }
 .mt-10p {
   margin-top: 10%;
@@ -555,8 +555,11 @@ a {
 .mt-\[30\%\] {
   margin-top: 30%;
 }
-.mt-\[60\%\] {
-  margin-top: 60%;
+.mt-\[55\%\] {
+  margin-top: 55%;
+}
+.mt-\[78\%\] {
+  margin-top: 78%;
 }
 .block {
   display: block;
@@ -708,9 +711,6 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.p-3p {
-  padding: 3%;
-}
 .p-5p {
   padding: 5%;
 }
@@ -828,8 +828,8 @@ a {
   font-size: 3rem;
   line-height: 1;
 }
-.text-\[1\.3rem\] {
-  font-size: 1.3rem;
+.text-\[1\.2rem\] {
+  font-size: 1.2rem;
 }
 .text-\[1\.4rem\] {
   font-size: 1.4rem;
@@ -840,8 +840,8 @@ a {
 .text-\[2\.9rem\] {
   font-size: 2.9rem;
 }
-.text-\[3\.4rem\] {
-  font-size: 3.4rem;
+.text-\[3rem\] {
+  font-size: 3rem;
 }
 .text-base {
   font-size: 1rem;
@@ -1074,6 +1074,7 @@ svg {
     font-size: 1.5rem;
 }
 
+/* Hamburger button */
 
 @media (min-width:390px) {
     .hamburger-wrapper {
@@ -1094,13 +1095,10 @@ svg {
 }
 
 
-
-
-
-
 .subtle {
     opacity: .5;
     font-size: 0.8rem;
+    line-height: 1.2rem;
 }
 
 .button {
@@ -1342,6 +1340,24 @@ input[type="number"] {
   background-color: rgb(0 12 9 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 370px) {
+  .min-\[370px\]\:mt-20p {
+    margin-top: 20%;
+  }
+}
+
+@media (min-width: 380px) {
+  .min-\[380px\]\:mt-0 {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 450px) {
+  .min-\[450px\]\:text-\[4rem\] {
+    font-size: 4rem;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -1363,6 +1379,9 @@ input[type="number"] {
   }
   .sm\:-mt-\[17\%\] {
     margin-top: -17%;
+  }
+  .sm\:mb-0 {
+    margin-bottom: 0px;
   }
   .sm\:mb-5p {
     margin-bottom: 5%;
@@ -1424,8 +1443,8 @@ input[type="number"] {
   .sm\:max-w-2xl {
     max-width: 42rem;
   }
-  .sm\:max-w-\[70vw\] {
-    max-width: 70vw;
+  .sm\:max-w-\[90vw\] {
+    max-width: 90vw;
   }
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1468,6 +1487,10 @@ input[type="number"] {
     padding-left: 5%;
     padding-right: 5%;
   }
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .sm\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1475,11 +1498,14 @@ input[type="number"] {
   .sm\:pb-10p {
     padding-bottom: 10%;
   }
-  .sm\:pb-20p {
-    padding-bottom: 20%;
-  }
   .sm\:pb-5p {
     padding-bottom: 5%;
+  }
+  .sm\:pb-\[19\%\] {
+    padding-bottom: 19%;
+  }
+  .sm\:pb-\[25\%\] {
+    padding-bottom: 25%;
   }
   .sm\:pb-\[7\%\] {
     padding-bottom: 7%;
@@ -1501,6 +1527,9 @@ input[type="number"] {
   }
   .sm\:pt-10p {
     padding-top: 10%;
+  }
+  .sm\:pt-15p {
+    padding-top: 15%;
   }
   .sm\:pt-5p {
     padding-top: 5%;
@@ -1555,6 +1584,9 @@ input[type="number"] {
   .md\:-ml-\[60\%\] {
     margin-left: -60%;
   }
+  .md\:-mt-10p {
+    margin-top: -10%;
+  }
   .md\:-mt-20p {
     margin-top: -20%;
   }
@@ -1585,17 +1617,17 @@ input[type="number"] {
     padding-top: 5%;
     padding-bottom: 5%;
   }
-  .md\:pb-15p {
-    padding-bottom: 15%;
+  .md\:pb-0 {
+    padding-bottom: 0px;
   }
-  .md\:pb-5p {
-    padding-bottom: 5%;
+  .md\:pb-10p {
+    padding-bottom: 10%;
+  }
+  .md\:pb-20p {
+    padding-bottom: 20%;
   }
   .md\:pt-10p {
     padding-top: 10%;
-  }
-  .md\:pt-15p {
-    padding-top: 15%;
   }
   .md\:text-3xl {
     font-size: 1.875rem;
@@ -1677,6 +1709,12 @@ input[type="number"] {
   .lg\:pt-0 {
     padding-top: 0px;
   }
+  .lg\:pt-10p {
+    padding-top: 10%;
+  }
+  .lg\:pt-5p {
+    padding-top: 5%;
+  }
   .lg\:text-left {
     text-align: left;
   }
@@ -1717,13 +1755,19 @@ input[type="number"] {
   .xl\:justify-items-center {
     justify-items: center;
   }
-  .xl\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+  .xl\:px-20p {
+    padding-left: 20%;
+    padding-right: 20%;
   }
   .xl\:py-5p {
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+  .xl\:pb-0 {
+    padding-bottom: 0px;
+  }
+  .xl\:pb-10p {
+    padding-bottom: 10%;
   }
   .xl\:pb-15p {
     padding-bottom: 15%;
@@ -1733,6 +1777,9 @@ input[type="number"] {
   }
   .xl\:pb-\[8\%\] {
     padding-bottom: 8%;
+  }
+  .xl\:pt-5p {
+    padding-top: 5%;
   }
   .xl\:text-\[9rem\] {
     font-size: 9rem;
@@ -1763,7 +1810,16 @@ input[type="number"] {
   .\32xl\:pt-5p {
     padding-top: 5%;
   }
+  .\32xl\:pb-\[18\%\] {
+    padding-bottom: 18%;
+  }
+  .\32xl\:pb-5p {
+    padding-bottom: 5%;
+  }
   .\32xl\:text-\[10\.3rem\] {
     font-size: 10.3rem;
+  }
+  .\32xl\:text-\[11rem\] {
+    font-size: 11rem;
   }
 }
