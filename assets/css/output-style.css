@@ -1979,6 +1979,10 @@ input[type="number"] {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .sm\:px-10p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   .sm\:px-5p {
     padding-left: 5%;
     padding-right: 5%;
