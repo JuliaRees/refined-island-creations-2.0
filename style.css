@@ -216,11 +216,26 @@ svg {
     .responsive-header {
         font-size: 3rem;
     }
+    .subheading-responsive {
+        font-size: 1.3rem;
+    }
     .index-main-picture {
         margin-top: 50.9%;
     }
     .services-main-picture {
         margin-top: 26.9%;
+    }
+    .portfolio-main-picture {
+        margin-top: 25%;
+    }
+    .pricing-main-picture {
+        margin-top: 27%;
+    }
+    .about-main-picture {
+        margin-top: 78%;
+    }
+    .contact-main-picture {
+        margin-top: 25%;
     }
 }
 
@@ -296,6 +311,33 @@ svg {
         margin-top: -20%;
     }
 
+    .portfolio-main-picture {
+        margin-top: 0;
+    }
+    .portfolio-second-picture {
+        margin-top: -20%;
+    }
+
+    .pricing-main-picture {
+        margin-top: -20%;
+    }
+    .pricing-second-picture {
+        margin-top: 0;
+    }
+
+    .about-main-picture {
+        margin-top: 20%;
+    }
+    .about-second-picture {
+        margin-top: 40%;
+    }
+
+    .contact-main-picture {
+        margin-top: -5%;
+    }
+    .contact-second-picture {
+        margin-top: -25%;
+    }
 
 }
 
@@ -313,20 +355,45 @@ svg {
     .services-second-picture {
         margin-top: -30%;
     }
+
+    .portfolio-main-picture {
+        margin-top: -10%;
+    }
+    .portfolio-second-picture {
+        margin-top: -30%;
+    }
+
+
+    .pricing-main-picture {
+        margin-top: -30%;
+    }
+    .pricing-second-picture {
+        margin-top: -10%;
+    }
+
+    .contact-main-picture {
+        margin-top: -15%;
+    }
+    .contact-second-picture {
+        margin-top: -35%;
+    }
 }
 
-@media (min-width:721px) {
+@media (min-width:720px) {
     .services-main-picture {
-        margin-top: -50%;
+        margin-top: -30%;
     }
     .services-second-picture {
-        margin-top: -30%;
+        margin-top: -50%;
     }
 }
 
 @media (min-width:740px) {
     .responsive-header {
         font-size: 6rem;
+    }
+    .responsive-header-services {
+        font-size: 5.8rem;
     }
 }
 
@@ -338,14 +405,50 @@ svg {
         margin-top: -20%;
     }
 
-    .services-main-picture {
-        margin-top: -30%;
-    }
-    .services-second-picture {
-        margin-top: -50%;
-    }
     .services-third-picture {
         margin-top: -70%;
+    }
+
+    .portfolio-main-picture {
+        margin-top: 0;
+    }
+    .portfolio-second-picture {
+        margin-top: -40%;
+    }
+    .portfolio-third-picture {
+        margin-top: -20%;
+    }
+
+
+    .pricing-main-picture {
+        margin-top: -40%;
+    }
+    .pricing-second-picture {
+        margin-top: 0;
+    }
+    .pricing-third-picture {
+        margin-top: -20%;
+    }
+
+
+    .about-main-picture {
+        margin-top: 10%;
+    }
+    .about-second-picture {
+        margin-top: 30%;
+    }
+    .about-third-picture {
+        margin-top: -10%;
+    }
+
+    .contact-main-picture {
+        margin-top: 0;
+    }
+    .contact-third-picture {
+        margin-top: -20%;
+    }
+    .contact-second-picture {
+        margin-top: -40%;
     }
 }
 
@@ -367,35 +470,61 @@ svg {
     .index-third-picture {
         margin-top: 20%;
     }
+
+
+    .portfolio-main-picture {
+        margin-top: 30%;
+    }
+    .portfolio-second-picture {
+        margin-top: -30%;
+    }
+    .portfolio-third-picture {
+        margin-top: 0;
+    }
+
+    .about-main-picture {
+        margin-top: 35%;
+    }
+    .about-second-picture {
+        margin-top: 65%;
+    }
+    .about-third-picture {
+        margin-top: 5%;
+    }
+
+
 }
 
 @media (min-width:850px) {
     .responsive-header {
-        font-size: 6.8rem;
+        font-size: 6.7rem;
     }
+
 }
 
 @media (min-width:900px) {
     .responsive-header {
-        font-size: 7.2rem;
+        font-size: 7.1rem;
     }
+
 }
 
 @media (min-width:950px) {
     .responsive-header {
-        font-size: 7.6rem;
+        font-size: 7.5rem;
     }
+
 }
 
 @media (min-width:1000px) {
     .responsive-header {
-        font-size: 8rem;
+        font-size: 7.9rem;
     }
 }
 
 @media (min-width:1100px) {
     .responsive-header {
-        font-size: 8.8rem;
+        font-size: 8.7rem;
     }
 }
 
@@ -403,12 +532,46 @@ svg {
     .responsive-header {
         font-size: 9.6rem;
     }
+
+    
+    .responsive-header-services {
+        font-size: 9.4rem;
+    }
+}
+
+@media (min-width:1280px) {
+  
+    .services-main-picture {
+        margin-top: 45%;
+    }
+    .services-second-picture {
+        margin-top: 15%;
+    }
+    .services-third-picture {
+        margin-top: -15%;
+    }
+
+    .contact-main-picture {
+        margin-top: 0;
+    }
+    .contact-third-picture {
+        margin-top: -32%;
+    }
+    .contact-second-picture {
+        margin-top: -62%;
+    }
+
 }
 
 @media (min-width:1300px) {
     .responsive-header {
         font-size: 10.4rem;
     }
+
+    .responsive-header-services {
+        font-size: 10.2rem;
+    }
+
 }
 
 @media (min-width:1400px) {
@@ -421,29 +584,17 @@ svg {
     .responsive-header {
         font-size: 12rem;
     }
+
+    .responsive-header-services {
+        font-size: 11.8rem;
+    }
 }
 
 @media (min-width:1600px) {
     .responsive-header {
-        font-size: 12.7rem;
+        font-size: 12.6rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .subtle {

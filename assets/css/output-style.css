@@ -501,12 +501,6 @@ a {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.-mt-10p {
-  margin-top: -10%;
-}
-.-mt-20p {
-  margin-top: -20%;
-}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -531,9 +525,6 @@ a {
 .mr-5p {
   margin-right: 5%;
 }
-.mt-0 {
-  margin-top: 0px;
-}
 .mt-10p {
   margin-top: 10%;
 }
@@ -548,12 +539,6 @@ a {
 }
 .mt-\[0\.5rem\] {
   margin-top: 0.5rem;
-}
-.mt-\[30\%\] {
-  margin-top: 30%;
-}
-.mt-\[78\%\] {
-  margin-top: 78%;
 }
 .block {
   display: block;
@@ -629,9 +614,6 @@ a {
 }
 .items-center {
   align-items: center;
-}
-.justify-end {
-  justify-content: flex-end;
 }
 .justify-center {
   justify-content: center;
@@ -822,17 +804,11 @@ a {
 .text-\[1\.2rem\] {
   font-size: 1.2rem;
 }
-.text-\[1\.4rem\] {
-  font-size: 1.4rem;
-}
 .text-\[2\.8rem\] {
   font-size: 2.8rem;
 }
 .text-\[2\.9rem\] {
   font-size: 2.9rem;
-}
-.text-\[3rem\] {
-  font-size: 3rem;
 }
 .text-base {
   font-size: 1rem;
@@ -1088,11 +1064,26 @@ svg {
     .responsive-header {
         font-size: 3rem;
     }
+    .subheading-responsive {
+        font-size: 1.3rem;
+    }
     .index-main-picture {
         margin-top: 50.9%;
     }
     .services-main-picture {
         margin-top: 26.9%;
+    }
+    .portfolio-main-picture {
+        margin-top: 25%;
+    }
+    .pricing-main-picture {
+        margin-top: 27%;
+    }
+    .about-main-picture {
+        margin-top: 78%;
+    }
+    .contact-main-picture {
+        margin-top: 25%;
     }
 }
 
@@ -1168,6 +1159,33 @@ svg {
         margin-top: -20%;
     }
 
+    .portfolio-main-picture {
+        margin-top: 0;
+    }
+    .portfolio-second-picture {
+        margin-top: -20%;
+    }
+
+    .pricing-main-picture {
+        margin-top: -20%;
+    }
+    .pricing-second-picture {
+        margin-top: 0;
+    }
+
+    .about-main-picture {
+        margin-top: 20%;
+    }
+    .about-second-picture {
+        margin-top: 40%;
+    }
+
+    .contact-main-picture {
+        margin-top: -5%;
+    }
+    .contact-second-picture {
+        margin-top: -25%;
+    }
 
 }
 
@@ -1185,20 +1203,45 @@ svg {
     .services-second-picture {
         margin-top: -30%;
     }
+
+    .portfolio-main-picture {
+        margin-top: -10%;
+    }
+    .portfolio-second-picture {
+        margin-top: -30%;
+    }
+
+
+    .pricing-main-picture {
+        margin-top: -30%;
+    }
+    .pricing-second-picture {
+        margin-top: -10%;
+    }
+
+    .contact-main-picture {
+        margin-top: -15%;
+    }
+    .contact-second-picture {
+        margin-top: -35%;
+    }
 }
 
-@media (min-width:721px) {
+@media (min-width:720px) {
     .services-main-picture {
-        margin-top: -50%;
+        margin-top: -30%;
     }
     .services-second-picture {
-        margin-top: -30%;
+        margin-top: -50%;
     }
 }
 
 @media (min-width:740px) {
     .responsive-header {
         font-size: 6rem;
+    }
+    .responsive-header-services {
+        font-size: 5.8rem;
     }
 }
 
@@ -1210,14 +1253,50 @@ svg {
         margin-top: -20%;
     }
 
-    .services-main-picture {
-        margin-top: -30%;
-    }
-    .services-second-picture {
-        margin-top: -50%;
-    }
     .services-third-picture {
         margin-top: -70%;
+    }
+
+    .portfolio-main-picture {
+        margin-top: 0;
+    }
+    .portfolio-second-picture {
+        margin-top: -40%;
+    }
+    .portfolio-third-picture {
+        margin-top: -20%;
+    }
+
+
+    .pricing-main-picture {
+        margin-top: -40%;
+    }
+    .pricing-second-picture {
+        margin-top: 0;
+    }
+    .pricing-third-picture {
+        margin-top: -20%;
+    }
+
+
+    .about-main-picture {
+        margin-top: 10%;
+    }
+    .about-second-picture {
+        margin-top: 30%;
+    }
+    .about-third-picture {
+        margin-top: -10%;
+    }
+
+    .contact-main-picture {
+        margin-top: 0;
+    }
+    .contact-third-picture {
+        margin-top: -20%;
+    }
+    .contact-second-picture {
+        margin-top: -40%;
     }
 }
 
@@ -1239,35 +1318,61 @@ svg {
     .index-third-picture {
         margin-top: 20%;
     }
+
+
+    .portfolio-main-picture {
+        margin-top: 30%;
+    }
+    .portfolio-second-picture {
+        margin-top: -30%;
+    }
+    .portfolio-third-picture {
+        margin-top: 0;
+    }
+
+    .about-main-picture {
+        margin-top: 35%;
+    }
+    .about-second-picture {
+        margin-top: 65%;
+    }
+    .about-third-picture {
+        margin-top: 5%;
+    }
+
+
 }
 
 @media (min-width:850px) {
     .responsive-header {
-        font-size: 6.8rem;
+        font-size: 6.7rem;
     }
+
 }
 
 @media (min-width:900px) {
     .responsive-header {
-        font-size: 7.2rem;
+        font-size: 7.1rem;
     }
+
 }
 
 @media (min-width:950px) {
     .responsive-header {
-        font-size: 7.6rem;
+        font-size: 7.5rem;
     }
+
 }
 
 @media (min-width:1000px) {
     .responsive-header {
-        font-size: 8rem;
+        font-size: 7.9rem;
     }
 }
 
 @media (min-width:1100px) {
     .responsive-header {
-        font-size: 8.8rem;
+        font-size: 8.7rem;
     }
 }
 
@@ -1275,12 +1380,46 @@ svg {
     .responsive-header {
         font-size: 9.6rem;
     }
+
+    
+    .responsive-header-services {
+        font-size: 9.4rem;
+    }
+}
+
+@media (min-width:1280px) {
+  
+    .services-main-picture {
+        margin-top: 45%;
+    }
+    .services-second-picture {
+        margin-top: 15%;
+    }
+    .services-third-picture {
+        margin-top: -15%;
+    }
+
+    .contact-main-picture {
+        margin-top: 0;
+    }
+    .contact-third-picture {
+        margin-top: -32%;
+    }
+    .contact-second-picture {
+        margin-top: -62%;
+    }
+
 }
 
 @media (min-width:1300px) {
     .responsive-header {
         font-size: 10.4rem;
     }
+
+    .responsive-header-services {
+        font-size: 10.2rem;
+    }
+
 }
 
 @media (min-width:1400px) {
@@ -1293,29 +1432,17 @@ svg {
     .responsive-header {
         font-size: 12rem;
     }
+
+    .responsive-header-services {
+        font-size: 11.8rem;
+    }
 }
 
 @media (min-width:1600px) {
     .responsive-header {
-        font-size: 12.7rem;
+        font-size: 12.6rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .subtle {
@@ -1563,18 +1690,6 @@ input[type="number"] {
   background-color: rgb(0 12 9 / var(--tw-bg-opacity));
 }
 
-@media (min-width: 370px) {
-  .min-\[370px\]\:mt-20p {
-    margin-top: 20%;
-  }
-}
-
-@media (min-width: 450px) {
-  .min-\[450px\]\:text-\[4rem\] {
-    font-size: 4rem;
-  }
-}
-
 @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -1587,12 +1702,6 @@ input[type="number"] {
   }
   .sm\:-ml-\[78\%\] {
     margin-left: -78%;
-  }
-  .sm\:-mt-10p {
-    margin-top: -10%;
-  }
-  .sm\:-mt-20p {
-    margin-top: -20%;
   }
   .sm\:-mt-\[17\%\] {
     margin-top: -17%;
@@ -1608,9 +1717,6 @@ input[type="number"] {
   }
   .sm\:mr-10p {
     margin-right: 10%;
-  }
-  .sm\:mt-0 {
-    margin-top: 0px;
   }
   .sm\:mt-15p {
     margin-top: 15%;
@@ -1777,17 +1883,11 @@ input[type="number"] {
   .sm\:text-\[1\.475rem\] {
     font-size: 1.475rem;
   }
-  .sm\:text-\[2\.3rem\] {
-    font-size: 2.3rem;
-  }
   .sm\:text-\[3\.5rem\] {
     font-size: 3.5rem;
   }
   .sm\:text-\[5\.1rem\] {
     font-size: 5.1rem;
-  }
-  .sm\:text-\[5\.2rem\] {
-    font-size: 5.2rem;
   }
   .sm\:text-\[7\.55rem\] {
     font-size: 7.55rem;
@@ -1797,12 +1897,6 @@ input[type="number"] {
 @media (min-width: 768px) {
   .md\:-ml-\[60\%\] {
     margin-left: -60%;
-  }
-  .md\:-mt-20p {
-    margin-top: -20%;
-  }
-  .md\:mt-0 {
-    margin-top: 0px;
   }
   .md\:mt-\[20px\] {
     margin-top: 20px;
@@ -1849,9 +1943,6 @@ input[type="number"] {
   }
   .md\:text-\[5\.1rem\] {
     font-size: 5.1rem;
-  }
-  .md\:text-\[6\.2rem\] {
-    font-size: 6.2rem;
   }
   .md\:text-\[6\.3rem\] {
     font-size: 6.3rem;
@@ -1933,9 +2024,6 @@ input[type="number"] {
     font-size: 8rem;
     line-height: 1;
   }
-  .lg\:text-\[8\.3rem\] {
-    font-size: 8.3rem;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -1959,9 +2047,6 @@ input[type="number"] {
   }
   .xl\:items-center {
     align-items: center;
-  }
-  .xl\:justify-center {
-    justify-content: center;
   }
   .xl\:justify-items-center {
     justify-items: center;
@@ -1991,9 +2076,6 @@ input[type="number"] {
   }
   .xl\:pt-5p {
     padding-top: 5%;
-  }
-  .xl\:text-\[9rem\] {
-    font-size: 9rem;
   }
 }
 
@@ -2026,8 +2108,5 @@ input[type="number"] {
   }
   .\32xl\:text-\[10\.3rem\] {
     font-size: 10.3rem;
-  }
-  .\32xl\:text-\[11rem\] {
-    font-size: 11rem;
   }
 }
