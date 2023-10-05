@@ -166,7 +166,7 @@ svg {
 .mobile-menu {
     display: none;
     background-color: #697d6f;
-    color: #EEE0CB;
+    color: #001410;
     padding: 6rem;
     position: fixed;
     top: 0;
@@ -1100,6 +1100,9 @@ svg {
       }
 }
 
+.accordion-drop {
+    transition: transform 0.3s ease-in-out;
+}
 
 .subtle {
     opacity: .5;
@@ -1110,7 +1113,7 @@ svg {
 .button {
     padding: 0.5rem 2rem;
     background-color: #839788;
-    color: #EEE0CB;
+    color: #001410;
     text-transform: uppercase;
     appearance: none;
     font-size: 1rem;
@@ -1123,7 +1126,7 @@ svg {
 .header-cta {
     padding: 0.5rem 2rem;
     background-color: #839788;
-    color: #EEE0CB;
+    color: #001410;
     text-transform: uppercase;
     appearance: none;
     font-size: 1rem;
@@ -1136,7 +1139,7 @@ svg {
 .cta {
     padding: 0.5rem 2rem;
     background-color: #839788;
-    color: #EEE0CB;
+    color: #001410;
     text-transform: uppercase;
     appearance: none;
     border: none;
@@ -1148,14 +1151,15 @@ svg {
 .cta:hover,
 .header-cta:hover {
     background-color: #47544a;
+    color: #EEE0CB;
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .cta-timel {
     padding: 0.5rem 2rem;
-    background-color: #ECE8D5;
-    color: #003f31;
+    background-color: #EEE0CB;
+    color: #001410;
     text-transform: uppercase;
     appearance: none;
     border: none;
@@ -1165,7 +1169,7 @@ svg {
 }
 
 .cta-timel:hover {
-    background-color: #003f31;
+    background-color: #001410;
     color: #EEE0CB;
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -1306,3 +1310,51 @@ input[type="number"] {
         flex-direction: row;
     }
 }
+
+
+
+/* Accordion Try */
+
+/* Accordian slides */
+
+.accordion{
+    background-color: #697d6f;
+    color: #EEE0CB;
+    padding:2%;
+    margin:0 auto;
+    max-width:500px;
+  }
+  
+  .accordion dt a {
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    display:block;
+    color: teal;
+    position: relative;
+    text-decoration: none;
+  }
+  .accordion dd {
+    padding: 0.5rem;
+  }
+  
+  /* Icon */
+  .accordion dt a::after {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+  }
+  
+  .accordion dt a::after {
+    content: "+";
+  }
+  .open::after {
+    transform: rotateZ(45deg);
+  }

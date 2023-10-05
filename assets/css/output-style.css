@@ -864,6 +864,9 @@ a {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1003,7 +1006,7 @@ svg {
 .mobile-menu {
     display: none;
     background-color: #697d6f;
-    color: #EEE0CB;
+    color: #001410;
     padding: 6rem;
     position: fixed;
     top: 0;
@@ -1937,6 +1940,9 @@ svg {
       }
 }
 
+.accordion-drop {
+    transition: transform 0.3s ease-in-out;
+}
 
 .subtle {
     opacity: .5;
@@ -1947,7 +1953,7 @@ svg {
 .button {
     padding: 0.5rem 2rem;
     background-color: #839788;
-    color: #EEE0CB;
+    color: #001410;
     text-transform: uppercase;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -1962,7 +1968,7 @@ svg {
 .header-cta {
     padding: 0.5rem 2rem;
     background-color: #839788;
-    color: #EEE0CB;
+    color: #001410;
     text-transform: uppercase;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -1977,7 +1983,7 @@ svg {
 .cta {
     padding: 0.5rem 2rem;
     background-color: #839788;
-    color: #EEE0CB;
+    color: #001410;
     text-transform: uppercase;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -1991,6 +1997,7 @@ svg {
 .cta:hover,
 .header-cta:hover {
     background-color: #47544a;
+    color: #EEE0CB;
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -1998,7 +2005,7 @@ svg {
 .cta-timel {
     padding: 0.5rem 2rem;
     background-color: #ECE8D5;
-    color: #003f31;
+    color: #001410;
     text-transform: uppercase;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -2152,38 +2159,73 @@ input[type="number"] {
     }
 }
 
-.placeholder\:uppercase::-moz-placeholder {
+
+
+/* Accordion Try */
+
+/* Accordian slides */
+
+.accordion{
+    background-color: #697d6f;
+    color: #EEE0CB;
+    padding:2%;
+    margin:0 auto;
+    max-width:500px;
+  }
+  
+  .accordion dt a {
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+    display:block;
+    color: teal;
+    position: relative;
+    text-decoration: none;
+  }
+  .accordion dd {
+    padding: 0.5rem;
+  }
+  
+  /* Icon */
+  .accordion dt a::after {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1;
+    text-align: center;
+    transition: all .35s;
+    content: "+";
+  }
+  .open::after {
+    transform: rotateZ(45deg);
+  }
+  .placeholder\:uppercase::-moz-placeholder {
   text-transform: uppercase;
 }
-
-.placeholder\:uppercase::placeholder {
+  .placeholder\:uppercase::placeholder {
   text-transform: uppercase;
 }
-
-.placeholder\:tracking-widest::-moz-placeholder {
+  .placeholder\:tracking-widest::-moz-placeholder {
   letter-spacing: 0.1em;
 }
-
-.placeholder\:tracking-widest::placeholder {
+  .placeholder\:tracking-widest::placeholder {
   letter-spacing: 0.1em;
 }
-
-.placeholder\:text-black::-moz-placeholder {
+  .placeholder\:text-black::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
-
-.placeholder\:text-black::placeholder {
+  .placeholder\:text-black::placeholder {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
-
-.hover\:bg-\[\#000c09\]:hover {
+  .hover\:bg-\[\#000c09\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 12 9 / var(--tw-bg-opacity));
 }
-
-@media (min-width: 640px) {
+  @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -2375,8 +2417,7 @@ input[type="number"] {
     font-size: 7.55rem;
   }
 }
-
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
   .md\:-ml-\[60\%\] {
     margin-left: -60%;
   }
@@ -2418,8 +2459,7 @@ input[type="number"] {
     line-height: 1;
   }
 }
-
-@media (min-width: 1024px) {
+  @media (min-width: 1024px) {
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -2485,8 +2525,7 @@ input[type="number"] {
     text-align: left;
   }
 }
-
-@media (min-width: 1280px) {
+  @media (min-width: 1280px) {
   .xl\:-ml-\[30\%\] {
     margin-left: -30%;
   }
@@ -2532,14 +2571,12 @@ input[type="number"] {
     padding-top: 5%;
   }
 }
-
-@media (min-width: 1330px) {
+  @media (min-width: 1330px) {
   .min-\[1330px\]\:pb-\[5\%\] {
     padding-bottom: 5%;
   }
 }
-
-@media (min-width: 1536px) {
+  @media (min-width: 1536px) {
   .\32xl\:min-h-40 {
     min-height: 40vh;
   }
