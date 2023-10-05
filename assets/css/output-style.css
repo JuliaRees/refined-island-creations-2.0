@@ -2004,7 +2004,7 @@ svg {
 
 .cta-timel {
     padding: 0.5rem 2rem;
-    background-color: #ECE8D5;
+    background-color: #EEE0CB;
     color: #001410;
     text-transform: uppercase;
     -webkit-appearance: none;
@@ -2017,7 +2017,7 @@ svg {
 }
 
 .cta-timel:hover {
-    background-color: #003f31;
+    background-color: #001410;
     color: #EEE0CB;
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
