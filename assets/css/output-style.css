@@ -835,6 +835,10 @@ a {
 .tracking-widest {
   letter-spacing: 0.1em;
 }
+.text-\[\#001410\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 20 16 / var(--tw-text-opacity));
+}
 .text-\[\#EEE0CB\] {
   --tw-text-opacity: 1;
   color: rgb(238 224 203 / var(--tw-text-opacity));
@@ -842,10 +846,6 @@ a {
 .text-\[\#b2141f\] {
   --tw-text-opacity: 1;
   color: rgb(178 20 31 / var(--tw-text-opacity));
-}
-.text-\[\#edf2f4\] {
-  --tw-text-opacity: 1;
-  color: rgb(237 242 244 / var(--tw-text-opacity));
 }
 .text-black {
   --tw-text-opacity: 1;
