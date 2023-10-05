@@ -1315,8 +1315,6 @@ input[type="number"] {
 
 /* Accordion Try */
 
-/* Accordian slides */
-
 .accordion{
     background-color: #697d6f;
     color: #EEE0CB;
@@ -1325,20 +1323,20 @@ input[type="number"] {
     max-width:500px;
   }
   
-  .accordion dt a {
+  .accordion .dt a {
     padding: 0.25rem;
     margin: 0.25rem 0;
     display:block;
-    color: teal;
+    color: black;
     position: relative;
     text-decoration: none;
   }
-  .accordion dd {
+  .accordion .dd {
     padding: 0.5rem;
   }
   
   /* Icon */
-  .accordion dt a::after {
+  .accordion .dt a::after {
     position: absolute;
     top: 0.4rem;
     right: 0.4rem;
@@ -1352,7 +1350,7 @@ input[type="number"] {
     transition: all .35s;
   }
   
-  .accordion dt a::after {
+  .accordion .dt a::after {
     content: "+";
   }
   .open::after {
