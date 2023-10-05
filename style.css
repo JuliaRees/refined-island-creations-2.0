@@ -190,25 +190,6 @@ svg {
     font-size: 1.5rem;
 }
 
-/* Hamburger button */
-
-@media (min-width:390px) {
-    .hamburger-wrapper {
-        top: 10vw;
-    }
-}
-
-@media (min-width:458px) {
-    .hamburger-wrapper {
-        top: 10vw;
-    }
-}
-
-@media (min-width:768px) {
-    .hamburger-wrapper {
-        top: 6.5vw;
-    }
-}
 
 /* Header Banners */
 
@@ -315,6 +296,11 @@ svg {
 }
 
 @media (min-width:390px) {
+
+    .hamburger-wrapper {
+        top: 10.7vw;
+      }
+
     .responsive-header {
         font-size: 3.9rem;
     }
@@ -439,6 +425,11 @@ svg {
 }
 
 @media (min-width:570px) {
+
+    .hamburger-wrapper {
+        top: 10.5vw;
+      }
+
     .responsive-header {
         font-size: 5.7rem;
     }
@@ -460,6 +451,10 @@ svg {
 }
 
 @media (min-width:640px) {
+
+    .hamburger-wrapper {
+        top: 11.4vw;
+      }
 
     .subheading-responsive {
         font-size: 2rem;
@@ -589,6 +584,11 @@ svg {
 }
 
 @media (min-width:720px) {
+
+    .hamburger-wrapper {
+        top: 11.3vw;
+      }
+
     .services-main-picture {
         margin-top: -30%;
     }
@@ -621,6 +621,10 @@ svg {
 }
 
 @media (min-width:768px) {
+
+    .hamburger-wrapper {
+        top: 6.3vw;
+      }
 
     .subheading-responsive {
         font-size: 2.4rem;
@@ -748,6 +752,11 @@ svg {
 }
 
 @media (min-width:850px) {
+
+    .hamburger-wrapper {
+        top: 6.2vw;
+      }
+
     .responsive-header {
         font-size: 6.7rem;
     }
@@ -766,6 +775,10 @@ svg {
 }
 
 @media (min-width: 892px) {
+    .hamburger-wrapper {
+        top: 6.2vw;
+      }
+
     .portfolio-title {
       font-size: 7.2rem;
       line-height: 6.3rem;
@@ -773,6 +786,11 @@ svg {
   }
 
 @media (min-width:900px) {
+
+    .hamburger-wrapper {
+        top: 6.1vw;
+      }
+
     .responsive-header {
         font-size: 7.1rem;
     }
@@ -826,6 +844,11 @@ svg {
 }
 
 @media (min-width:1000px) {
+
+    .hamburger-wrapper {
+        top: 6vw;
+      }
+
     .responsive-header {
         font-size: 7.9rem;
     }
@@ -869,6 +892,11 @@ svg {
 }
 
 @media (min-width:1100px) {
+
+    .hamburger-wrapper {
+        top: 5.9vw;
+      }
+
     .responsive-header {
         font-size: 8.7rem;
     }
@@ -901,6 +929,11 @@ svg {
   }
 
 @media (min-width:1200px) {
+
+    .hamburger-wrapper {
+        top: 5.8vw;
+      }
+
     .responsive-header {
         font-size: 9.6rem;
     }
@@ -977,6 +1010,10 @@ svg {
 }
 
 @media (min-width:1350px) {
+    .hamburger-wrapper {
+        top: 5.7vw;
+      }
+
     .padding-sm-service {
         padding-bottom: 15%;
     }
@@ -991,6 +1028,10 @@ svg {
 }
 
 @media (min-width:1400px) {
+    .hamburger-wrapper {
+        top: 5.7vw;
+      }
+
     .responsive-header {
         font-size: 11rem;
     }
@@ -1030,6 +1071,10 @@ svg {
 }
 
 @media (min-width:1600px) {
+    .hamburger-wrapper {
+        top: 5.6vw;
+      }
+      
     .responsive-header {
         font-size: 12.6rem;
     }
@@ -1115,8 +1160,8 @@ svg {
 }
 
 .cta-timel:hover {
-    background-color: #005945;
-    color: #ECE8D5;
+    background-color: #003f31;
+    color: #EEE0CB;
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
