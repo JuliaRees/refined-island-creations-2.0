@@ -165,8 +165,8 @@ svg {
 
 .mobile-menu {
     display: none;
-    background-color: #839788;
-    color: #001410;
+    background-color: #697d6f;
+    color: #EEE0CB;
     padding: 6rem;
     position: fixed;
     top: 0;
@@ -249,7 +249,12 @@ svg {
     .portfolio-video-width {
         max-width: 18rem;
     }
+
+    .accordion-title {
+        margin-right: 3%;
+    }
 }
+
 
 @media (min-width:330px) {
     .responsive-header {
@@ -1074,7 +1079,7 @@ svg {
     .hamburger-wrapper {
         top: 5.6vw;
       }
-      
+
     .responsive-header {
         font-size: 12.6rem;
     }

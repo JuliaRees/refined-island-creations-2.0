@@ -1,9 +1,9 @@
-<div class="bg-[#4A594E] text-[#EEE0CB]" x-data="{ selected: null }">
+<div class="bg-[#697d6f] text-[#EEE0CB]" x-data="{ selected: null }">
   <div class="relative">
       <button type="button" class="py-3p block w-full px-5p" 
               @click="selected = (selected !== 1) ? 1 : null">
           <div class="flex items-center justify-between">
-              <h4 class="mb-0 text-[1.2rem] sm:text-[1.475rem] md:text-[1.575rem] mr-5p"> "Is Investing in a Custom-Coded Website Worth It for My Luxury Property?" </h4>
+              <p class="mb-0 accordion-title text-left"> "Is Investing in a Custom-Coded Website Worth It for My Luxury Property?" </p>
               <span x-text="selected === 1 ? '-' : '+'" class="text-4xl"></span>
           </div>
       </button>
