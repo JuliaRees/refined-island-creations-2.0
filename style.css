@@ -262,6 +262,10 @@ svg {
     .accordion .dt a {
         padding-right: 3%;
       }
+
+      .img-height {
+        min-height: 30vh;
+      }
 }
 
 
@@ -375,6 +379,9 @@ svg {
         max-width: 25.4rem;
     }
 
+    .img-height {
+        min-height: 40vh;
+      }
 
 }
 
@@ -559,6 +566,10 @@ svg {
     .portfolio-title {
         font-size: 5.4rem;
         line-height: 4.8rem;
+      }
+
+      .img-height {
+        min-height: 30vh;
       }
 
 }
@@ -804,6 +815,10 @@ svg {
       .accordion .dt a::after {
         top: 1.3rem;
         right: 2.3rem;
+      }
+
+      .img-height {
+        min-height: 40vh;
       }
 
 }

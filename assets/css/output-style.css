@@ -463,9 +463,6 @@ a {
     max-width: 1536px;
   }
 }
-.visible {
-  visibility: visible;
-}
 .absolute {
   position: absolute;
 }
@@ -558,14 +555,14 @@ a {
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
+.h-6 {
+  height: 1.5rem;
+}
 .h-full {
   height: 100%;
 }
 .max-h-96 {
   max-height: 24rem;
-}
-.min-h-30 {
-  min-height: 30vh;
 }
 .min-h-40 {
   min-height: 40vh;
@@ -844,10 +841,6 @@ a {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1095,6 +1088,10 @@ svg {
     .accordion .dt a {
         padding-right: 3%;
       }
+
+      .img-height {
+        min-height: 30vh;
+      }
 }
 
 
@@ -1208,6 +1205,9 @@ svg {
         max-width: 25.4rem;
     }
 
+    .img-height {
+        min-height: 40vh;
+      }
 
 }
 
@@ -1392,6 +1392,10 @@ svg {
     .portfolio-title {
         font-size: 5.4rem;
         line-height: 4.8rem;
+      }
+
+      .img-height {
+        min-height: 30vh;
       }
 
 }
@@ -1637,6 +1641,10 @@ svg {
       .accordion .dt a::after {
         top: 1.3rem;
         right: 2.3rem;
+      }
+
+      .img-height {
+        min-height: 40vh;
       }
 
 }
@@ -2395,12 +2403,6 @@ input[type="number"] {
   .sm\:justify-end {
     justify-content: flex-end;
   }
-  .sm\:justify-items-start {
-    justify-items: start;
-  }
-  .sm\:justify-items-end {
-    justify-items: end;
-  }
   .sm\:gap-4 {
     gap: 1rem;
   }
@@ -2419,10 +2421,6 @@ input[type="number"] {
   .sm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-  .sm\:px-10p {
-    padding-left: 10%;
-    padding-right: 10%;
   }
   .sm\:px-5p {
     padding-left: 5%;
@@ -2644,9 +2642,6 @@ input[type="number"] {
   .xl\:items-center {
     align-items: center;
   }
-  .xl\:justify-items-center {
-    justify-items: center;
-  }
   .xl\:px-20p {
     padding-left: 20%;
     padding-right: 20%;
@@ -2674,9 +2669,6 @@ input[type="number"] {
   }
 }
   @media (min-width: 1536px) {
-  .\32xl\:min-h-40 {
-    min-height: 40vh;
-  }
   .\32xl\:p-0 {
     padding: 0px;
   }
