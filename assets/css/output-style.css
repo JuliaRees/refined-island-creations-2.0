@@ -2289,10 +2289,12 @@ input[type="number"] {
     text-align: center;
     transition: all .35s;
     font-size: 1.5rem;
+    right: 0;
     content: "+";
   }
   .open::after {
     transform: rotateZ(45deg);
+    right: 0;
   }
   .placeholder\:uppercase::-moz-placeholder {
   text-transform: uppercase;
