@@ -463,9 +463,6 @@ a {
     max-width: 1536px;
   }
 }
-.fixed {
-  position: fixed;
-}
 .absolute {
   position: absolute;
 }
@@ -475,14 +472,8 @@ a {
 .inset-0 {
   inset: 0px;
 }
-.bottom-5 {
-  bottom: 1.25rem;
-}
 .right-0 {
   right: 0px;
-}
-.right-5 {
-  right: 1.25rem;
 }
 .z-10 {
   z-index: 10;
@@ -519,8 +510,14 @@ a {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mb-5p {
+  margin-bottom: 5%;
+}
 .mb-8 {
   margin-bottom: 2rem;
+}
+.ml-3 {
+  margin-left: 0.75rem;
 }
 .ml-5p {
   margin-left: 5%;
