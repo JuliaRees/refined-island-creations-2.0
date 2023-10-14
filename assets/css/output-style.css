@@ -646,6 +646,14 @@ a {
   --tw-border-opacity: 1;
   border-color: rgb(131 151 136 / var(--tw-border-opacity));
 }
+.border-b-\[\#839788\] {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(131 151 136 / var(--tw-border-opacity));
+}
+.bg-\[\#001410\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 20 16 / var(--tw-bg-opacity));
+}
 .bg-\[\#003f31\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 63 49 / var(--tw-bg-opacity));
@@ -654,9 +662,9 @@ a {
   --tw-bg-opacity: 1;
   background-color: rgb(105 125 111 / var(--tw-bg-opacity));
 }
-.bg-\[\#EEE0CB\] {
+.bg-\[\#fbf7f1\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(238 224 203 / var(--tw-bg-opacity));
+  background-color: rgb(251 247 241 / var(--tw-bg-opacity));
 }
 .bg-agreen {
   --tw-bg-opacity: 1;
@@ -829,6 +837,10 @@ a {
   --tw-text-opacity: 1;
   color: rgb(0 20 16 / var(--tw-text-opacity));
 }
+.text-\[\#839788\] {
+  --tw-text-opacity: 1;
+  color: rgb(131 151 136 / var(--tw-text-opacity));
+}
 .text-\[\#EEE0CB\] {
   --tw-text-opacity: 1;
   color: rgb(238 224 203 / var(--tw-text-opacity));
@@ -836,10 +848,6 @@ a {
 .text-\[\#e01927\] {
   --tw-text-opacity: 1;
   color: rgb(224 25 39 / var(--tw-text-opacity));
-}
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -2196,7 +2204,7 @@ input[type="number"] {
 .calculator input[type="text"],
 .calculator input[type="number"],
 .calculator input[type="percentage"] {
-    background-color: #EEE0CB;
+    background-color: #fbf7f1;
     border: none;
     border-radius: 6px;
     padding: 10px;
@@ -2207,12 +2215,12 @@ input[type="number"] {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: #EEE0CB;
+    color: #f5ecdd;
 }
 
 #calculateBtn {
     background-color: #9b111b;
-    color: #EEE0CB;
+    color: #f5ecdd;
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
@@ -2257,7 +2265,7 @@ input[type="number"] {
 
 
 
-/* Accordion Try */
+/* Accordion */
 
 .accordion{
     background-color: #697d6f;
@@ -2316,17 +2324,21 @@ input[type="number"] {
   --tw-text-opacity: 1;
   color: rgb(0 46 36 / var(--tw-text-opacity));
 }
-  .placeholder\:text-black::-moz-placeholder {
+  .placeholder\:text-\[\#839788\]::-moz-placeholder {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(131 151 136 / var(--tw-text-opacity));
 }
-  .placeholder\:text-black::placeholder {
+  .placeholder\:text-\[\#839788\]::placeholder {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(131 151 136 / var(--tw-text-opacity));
 }
-  .hover\:bg-\[\#000c09\]:hover {
+  .hover\:bg-\[\#47544a\]:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 12 9 / var(--tw-bg-opacity));
+  background-color: rgb(71 84 74 / var(--tw-bg-opacity));
+}
+  .hover\:text-\[\#EEE0CB\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(238 224 203 / var(--tw-text-opacity));
 }
   @media (min-width: 640px) {
   .sm\:col-span-2 {
@@ -2495,10 +2507,6 @@ input[type="number"] {
   }
   .sm\:text-3xl {
     font-size: 1.875rem;
-    line-height: 1;
-  }
-  .sm\:text-4xl {
-    font-size: 2.25rem;
     line-height: 1;
   }
   .sm\:text-5xl {

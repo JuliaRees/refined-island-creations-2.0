@@ -1362,7 +1362,7 @@ input[type="number"] {
 .calculator input[type="text"],
 .calculator input[type="number"],
 .calculator input[type="percentage"] {
-    background-color: #EEE0CB;
+    background-color: #fbf7f1;
     border: none;
     border-radius: 6px;
     padding: 10px;
@@ -1373,12 +1373,12 @@ input[type="number"] {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: #EEE0CB;
+    color: #f5ecdd;
 }
 
 #calculateBtn {
     background-color: #9b111b;
-    color: #EEE0CB;
+    color: #f5ecdd;
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
@@ -1423,7 +1423,7 @@ input[type="number"] {
 
 
 
-/* Accordion Try */
+/* Accordion */
 
 .accordion{
     background-color: #697d6f;
