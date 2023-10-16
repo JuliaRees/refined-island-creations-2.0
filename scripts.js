@@ -11,7 +11,7 @@ $(document).ready(function() {
 var allPanels = $('.accordion > .dd').hide();
 
 	$('.accordion > .dt > a').click(function() {
-	//	allPanels.slideUp();
+		// allPanels.slideUp();
 
         
    // $(this).filter('.open').removeClass('open').addClass('closing')
@@ -19,11 +19,13 @@ var allPanels = $('.accordion > .dd').hide();
  // $(this).not(".closing").addClass('open').parent().next().slideDown();
    // $('.accordion > .dt > a').removeClass('closing');
     
-   $(this).toggleClass('open')
+   $(this).toggleClass('open') 
    $(this).parent().next().slideToggle() 
 
-    return false;
+   return false; 
 	});
+
+
 
 
 

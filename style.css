@@ -1457,12 +1457,10 @@ input[type="number"] {
     -o-transition: all .35s;
     transition: all .35s;
     font-size: 1.5rem;
-    /*right: 0; */
-  }
-  
-  .accordion .dt a::after {
     content: "+";
-  }
+    /*right: 0; */
+  }  
+
   .open::after {
     transform: rotateZ(45deg);
     /*right: 0; */

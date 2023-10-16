@@ -531,6 +531,9 @@ a {
 .mt-10p {
   margin-top: 10%;
 }
+.mt-3 {
+  margin-top: 0.75rem;
+}
 .mt-4 {
   margin-top: 1rem;
 }
@@ -541,6 +544,9 @@ a {
   margin-top: 2rem;
 }
 .mt-\[0\.5rem\] {
+  margin-top: 0.5rem;
+}
+.mt-2 {
   margin-top: 0.5rem;
 }
 .block {
@@ -618,14 +624,23 @@ a {
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
+.flex-row {
+  flex-direction: row;
+}
 .flex-col {
   flex-direction: column;
 }
 .flex-wrap {
   flex-wrap: wrap;
 }
+.items-start {
+  align-items: flex-start;
+}
 .items-center {
   align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
 }
 .justify-center {
   justify-content: center;
@@ -679,10 +694,6 @@ a {
 .bg-\[\#25d366\] {
   --tw-bg-opacity: 1;
   background-color: rgb(37 211 102 / var(--tw-bg-opacity));
-}
-.bg-\[\#697d6f\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(105 125 111 / var(--tw-bg-opacity));
 }
 .bg-\[\#fbf7f1\] {
   --tw-bg-opacity: 1;
@@ -763,6 +774,9 @@ a {
 }
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+.pl-3p {
+  padding-left: 3%;
 }
 .pl-\[2\%\] {
   padding-left: 2%;
@@ -2342,58 +2356,72 @@ input[type="number"] {
     text-align: center;
     transition: all .35s;
     font-size: 1.5rem;
-    /*right: 0; */
     content: "+";
-  }
+    /*right: 0; */
+  }  
+
   .open::after {
     transform: rotateZ(45deg);
     /*right: 0; */
-  }
+  }  
+
   .placeholder\:uppercase::-moz-placeholder {
   text-transform: uppercase;
-}
+}  
+
   .placeholder\:uppercase::placeholder {
   text-transform: uppercase;
-}
+}  
+
   .placeholder\:tracking-widest::-moz-placeholder {
   letter-spacing: 0.1em;
-}
+}  
+
   .placeholder\:tracking-widest::placeholder {
   letter-spacing: 0.1em;
-}
+}  
+
   .placeholder\:text-\[\#002e24\]::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(0 46 36 / var(--tw-text-opacity));
-}
+}  
+
   .placeholder\:text-\[\#002e24\]::placeholder {
   --tw-text-opacity: 1;
   color: rgb(0 46 36 / var(--tw-text-opacity));
-}
+}  
+
   .placeholder\:text-\[\#839788\]::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(131 151 136 / var(--tw-text-opacity));
-}
+}  
+
   .placeholder\:text-\[\#839788\]::placeholder {
   --tw-text-opacity: 1;
   color: rgb(131 151 136 / var(--tw-text-opacity));
-}
+}  
+
   .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
+}  
+
   .hover\:bg-\[\#47544a\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(71 84 74 / var(--tw-bg-opacity));
-}
+}  
+
   .hover\:bg-\[\#839788\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(131 151 136 / var(--tw-bg-opacity));
-}
+}  
+
   .hover\:text-\[\#EEE0CB\]:hover {
   --tw-text-opacity: 1;
   color: rgb(238 224 203 / var(--tw-text-opacity));
-}
+}  
+
   @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -2416,11 +2444,17 @@ input[type="number"] {
   .sm\:mb-5p {
     margin-bottom: 5%;
   }
+  .sm\:ml-0 {
+    margin-left: 0px;
+  }
   .sm\:ml-auto {
     margin-left: auto;
   }
   .sm\:mr-10p {
     margin-right: 10%;
+  }
+  .sm\:mt-0 {
+    margin-top: 0px;
   }
   .sm\:mt-15p {
     margin-top: 15%;
@@ -2475,6 +2509,15 @@ input[type="number"] {
   }
   .sm\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+  .sm\:items-start {
+    align-items: flex-start;
+  }
+  .sm\:justify-start {
+    justify-content: flex-start;
   }
   .sm\:justify-end {
     justify-content: flex-end;
@@ -2574,7 +2617,8 @@ input[type="number"] {
   .sm\:text-\[7\.55rem\] {
     font-size: 7.55rem;
   }
-}
+}  
+
   @media (min-width: 768px) {
   .md\:-ml-\[60\%\] {
     margin-left: -60%;
@@ -2619,7 +2663,8 @@ input[type="number"] {
     font-size: 1.875rem;
     line-height: 1;
   }
-}
+}  
+
   @media (min-width: 1024px) {
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
@@ -2691,7 +2736,8 @@ input[type="number"] {
   .lg\:text-left {
     text-align: left;
   }
-}
+}  
+
   @media (min-width: 1280px) {
   .xl\:-ml-\[30\%\] {
     margin-left: -30%;
@@ -2734,12 +2780,14 @@ input[type="number"] {
   .xl\:pt-5p {
     padding-top: 5%;
   }
-}
+}  
+
   @media (min-width: 1330px) {
   .min-\[1330px\]\:pb-\[5\%\] {
     padding-bottom: 5%;
   }
-}
+}  
+
   @media (min-width: 1536px) {
   .\32xl\:p-0 {
     padding: 0px;
