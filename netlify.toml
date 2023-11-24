@@ -1,4 +1,5 @@
 [build]
-  command = "bundle exec jekyll build"
+  command = "BUNDLE_PATH=./vendor/bundle bundle exec jekyll build"
   publish = "_site/"
-  image = "ubuntu-20.04"
+[build.environment]
+  RUBY_VERSION = "3.2.2"
