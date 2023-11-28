@@ -64,11 +64,8 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bundler (= 2.4.14)
   jekyll (= 4.3.2)
-
-RUBY VERSION
-   ruby 3.2.2p53
+  webrick
 
 BUNDLED WITH
    2.4.14
